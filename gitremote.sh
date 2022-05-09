@@ -4,6 +4,6 @@ git init
 git add .
 git status
 git commit -m "First commit"
-git remote add origin $3
+git remote add origin https://github.com/govindgiri2021/myDirName.git
 git push origin master
 
