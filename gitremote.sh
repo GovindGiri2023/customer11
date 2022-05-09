@@ -5,4 +5,6 @@ git add .
 git status
 git commit -m "First commit"
 git remote add origin https://github.com/govindgiri2021/myDirName.git
+git checkout -b govind
+git push origin govind
 
