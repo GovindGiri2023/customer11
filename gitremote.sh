@@ -1,11 +1,9 @@
-#!/usr/bin/env bash 
-git init .
-git add --all
-git commit -m"initial commit"
+git config --global user.name $1
+git config --global user.email $2
+git init
+git add .
+git status
+git commit -m "First commit"
+git remote add origin $3
+git push origin master
 
-git branch dev
-
-#git push origin --all
-#git push origin --tags
-
-echo "Done."
