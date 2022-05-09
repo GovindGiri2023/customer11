@@ -1,3 +1,5 @@
+Username: govindgiri2021
+Password: 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
 git config --global user.name $1
 git config --global user.email $2
 git init
