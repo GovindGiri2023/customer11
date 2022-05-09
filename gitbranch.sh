@@ -1,13 +1,7 @@
-#!/usr/bin/env bash 
-git init .
-touch .gitignore
-git add --all
-git commit -m"initial commit"
-
-git remote add origin $1
-
-git branch develop
-git push origin --all
-git push origin --tags
-
-echo "Done."    
+#!/bin/bash
+    git init
+    git remote add origin git@github.com:govindgiri/$1.git
+    git add .
+    git commit -m "Initial commit"
+    git push -u origin master
+}
